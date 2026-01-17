@@ -1,0 +1,32 @@
+body {
+  height: 100vh;
+  background: url("bg.jpg") center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial;
+}
+
+.login-box {
+  background: rgba(255,255,255,0.15);
+  backdrop-filter: blur(12px);
+  padding: 30px;
+  width: 320px;
+  border-radius: 15px;
+  color: white;
+  text-align: center;
+}
+
+input, button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 25px;
+  border: none;
+}
+
+button {
+  background: white;
+  font-weight: bold;
+  cursor: pointer;
+}
